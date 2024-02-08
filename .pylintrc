@@ -1,6 +1,10 @@
 [MAIN]
 disable=
-C0116, #missing-function-docstring
+#C0116, #missing-function-docstring
+C0115, #function
+C0114, #modulos
+W0703, #excecao genericos
+
 
 # Analyse import fallback blocks. This can be used to support both Python 2 and
 # 3 compatible code, which means that the block might have code that exists
